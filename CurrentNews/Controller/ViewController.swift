@@ -19,11 +19,9 @@ class ViewController: UIViewController {
     //Used to determine the button label and url
     var newsManager = NewsManager()
     var myURL: URL? = nil
-    var language: String = "en"
-    //var language = UserDefaults.standard.string(forKey: "Language") ?? "en"
+    var language = UserDefaults.standard.string(forKey: K.languageKey) ?? "en"
     
-   
-    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

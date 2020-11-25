@@ -12,4 +12,7 @@ struct K{
     static let webSegue = "RootToWeb"
     static let rootSegue = "SettingsToRoot"
     
+    //Defaults Keys
+    static let languageKey = "language"
+    
 }
